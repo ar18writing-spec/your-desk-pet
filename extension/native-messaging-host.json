@@ -1,0 +1,10 @@
+{
+  "name": "com.yourdeskpet.host",
+  "description": "Native messaging host for Your Desk Pet",
+  "path": "_PLACEHOLDER_PATH_TO_NATIVE_HOST_SCRIPT_",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://__EXTENSION_ID__/",
+    "https://__FIREFOX_PLACEHOLDER__/"
+  ]
+}

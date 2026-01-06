@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Your Desk Pet - Distractor Notifier",
+  "version": "0.1.0",
+  "description": "Optional extension to notify Your Desk Pet app when a distracting site is active.",
+  "permissions": ["tabs", "activeTab", "nativeMessaging"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_title": "Your Desk Pet"
+  }
+}
